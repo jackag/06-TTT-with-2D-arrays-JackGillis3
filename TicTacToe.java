@@ -94,7 +94,7 @@ public class TicTacToe {
 
 
 /*
-Instance Variables:
+Variables:
   SIZE: Represents the size of the board (3 or 4).
   board: A 2D array representing the game board.
   currentPlayer: Keeps track of the current player ('X' or 'O').

@@ -17,7 +17,7 @@ public class Player {
 
 
 /*
-Instance Variables:
+Variables:
   symbol: Represents the symbol ('X' or 'O') of the player.
 Constructor:
   Initializes the player's symbol.
