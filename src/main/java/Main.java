@@ -50,3 +50,22 @@ public class Main {
     scanner.close();
   }
 }
+
+
+
+/*
+User Interaction:
+  Prompts the user to enter the size of the board (3 or 4).
+  Creates instances of TicTacToe and two Player objects.
+  Starts the game loop.
+Game Loop:
+  Prints the current state of the board.
+  Prompts the current player to make a move.
+  Validates the move and updates the board.
+  Checks if there is a winner or a draw.
+  Switches the current player and repeats the loop if the game is not over.
+End of Game:
+  Prints the final state of the board.
+  Prints the winner or declares a draw.
+  Closes the scanner.
+*/

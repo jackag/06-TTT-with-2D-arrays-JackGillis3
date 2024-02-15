@@ -85,3 +85,27 @@ public class TicTacToe {
     currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
   }
 }
+
+
+
+
+
+
+
+
+/*
+Instance Variables:
+  SIZE: Represents the size of the board (3 or 4).
+  board: A 2D array representing the game board.
+  currentPlayer: Keeps track of the current player ('X' or 'O').
+Constructor:
+  Initializes the size of the board and creates a new board with all cells set to '-'.
+Methods:
+  initializeBoard(): Initializes the board with '-' in all cells.
+  printBoard(): Prints the current state of the board.
+  isBoardFull(): Checks if the board is full.
+  makeMove(int row, int col): Allows a player to make a move at the specified row and column.
+  checkWinner(): Checks if there is a winner by checking rows, columns, and diagonals.
+  checkRows(), checkCols(), checkDiagonals(): Helper methods for checking win conditions.
+  switchPlayer(): Switches the current player.
+  */

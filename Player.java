@@ -14,3 +14,13 @@ public class Player {
     return symbol;
   }
 }
+
+
+/*
+Instance Variables:
+  symbol: Represents the symbol ('X' or 'O') of the player.
+Constructor:
+  Initializes the player's symbol.
+Method:
+  getSymbol(): Returns the player's symbol.
+*/
