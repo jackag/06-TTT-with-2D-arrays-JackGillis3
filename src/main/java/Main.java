@@ -22,10 +22,10 @@ public class Main {
     Player currentPlayer = player1;
 
     while (true) {
-      System.out.println("\nCurrent board:");
+      System.out.println("Current board:");
       game.printBoard();
 
-      System.out.println("\nPlayer " + currentPlayer.getSymbol() + "'s turn");
+      System.out.println("Player " + currentPlayer.getSymbol() + "'s turn");
       System.out.print("Enter row and column separated by an enter: ");
       int row = scanner.nextInt();
       int col = scanner.nextInt();
@@ -36,10 +36,10 @@ public class Main {
       }
 
       if (game.checkWinner()) {
-        System.out.println("\nPlayer " + currentPlayer.getSymbol() + " wins!");
+        System.out.println("Player " + currentPlayer.getSymbol() + " wins!");
         break;
       } else if (game.isBoardFull()) {
-        System.out.println("\nIt's a draw!");
+        System.out.println("It's a draw!");
         break;
       }
 
