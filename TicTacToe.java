@@ -96,11 +96,3 @@ public class TicTacToe {
     currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
   }
 }
-
-
-
-
-
-
-
-

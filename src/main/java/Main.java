@@ -10,7 +10,7 @@ public class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Welcome to Tic Tac Toe!");
+    System.out.println("Lets play Tic Tac Toe!");
 
     // Prompts the user to enter the size of the board (3 or 4).
     System.out.print("Enter the size of the board (3 or 4): ");
@@ -25,7 +25,7 @@ public class Main {
 
     // Starts the game loop.
     while (true) {
-      System.out.println("Current board:");
+      System.out.println("Current gameboard:");
       //Prints the current state of the board.
       game.printBoard();
 
